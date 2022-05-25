@@ -14,9 +14,4 @@ console.log(mult)
 // Div
 console.log(hector / 3)
 
-async function getData() {
-  const response = await fetch('https://dog.ceo/api/breed/hound/images')
-  const data = await response.json()
-  console.log(data)
-}
-getData()
+
