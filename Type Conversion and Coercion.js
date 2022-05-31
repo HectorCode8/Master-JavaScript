@@ -6,3 +6,4 @@ console.log(typeof NaN)
 
 console.log(String(33))
 
+console.log()
