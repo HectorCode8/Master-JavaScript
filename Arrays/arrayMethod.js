@@ -21,4 +21,18 @@ console.log(friends);
 friends.splice(1, 1); // remove 1 element from index 1
 console.log(friends);
 
-//Slice
+//IndexOf
+console.log(friends.indexOf('John')); // returns the index of the element
+
+//Includes
+console.log(friends.includes('John')); // returns true or false
+console.log(friends.includes('hector')); // returns true or false
+friends.push('hector');
+if(friends.includes('hector')) {
+    console.log('hector is a friend');
+}else {
+    console.log('hector is not a friend');
+}
+
+//
+
