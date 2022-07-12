@@ -22,3 +22,9 @@ console.log(hector['age'])
 
 const nameKey = 'Name'
 console.log(hector['first' + nameKey])
+
+hector.location = 'Bogota'
+hector['twitter'] = '@hector_haro'
+console.log(hector)
+
+console.log(`${hector.firstName} is a ${hector.job}. He lives in ${hector.location}, he loves ${hector.hobbies[0]} and ${hector.hobbies[1]}`)
