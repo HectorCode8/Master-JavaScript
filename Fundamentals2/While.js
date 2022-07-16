@@ -1,8 +1,6 @@
+let rep = 1;
 
-
-let rep = 1
-
-while(rep <= 10) {
-    console.log(`Levantando pesas ${rep} veces`);
-    rep++;
+while (rep <= 10) {
+  console.log(`Levantando pesas ${rep} veces`);
+  rep++;
 }
