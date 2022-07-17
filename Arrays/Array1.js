@@ -25,3 +25,16 @@ const age2 = calcAge(years[1]);
 console.log(age2);
 const age3 = calcAge(years[years.length - 1]);
 console.log(age3);
+
+const restaurant = {
+  name: "Italian Bistro",
+  location: "New York",
+  starterMenu: ["Pasta", "Pizza", "Spaghetti"],
+  mainMenu: ["Meat", "Fish", "Vegetarian"],
+};
+
+// destructuring
+const { name, location, starterMenu, mainMenu } = restaurant;
+console.log(`The restaurant ${name} is located in ${location}
+The starter menu is ${starterMenu}
+The main menu is ${mainMenu}`);
