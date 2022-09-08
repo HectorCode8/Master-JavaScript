@@ -33,8 +33,18 @@ const restaurant = {
   mainMenu: ["Meat", "Fish", "Vegetarian"],
 };
 
+const newMenu = [...restaurant.mainMenu, "Fruit", "Dessert"];
+console.log(newMenu);
 // destructuring
 const { name, location, starterMenu, mainMenu } = restaurant;
 console.log(`The restaurant ${name} is located in ${location}
 The starter menu is ${starterMenu}
 The main menu is ${mainMenu}`);
+
+
+const arr = [7, 8, 9, 10];
+const badArr = [1, 2, arr[0], arr[1], arr[2], arr[3]];
+console.log(badArr);
+
+const newArr = [1, 2, ...arr];
+console.log(newArr);
