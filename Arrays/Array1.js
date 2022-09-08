@@ -35,6 +35,14 @@ const restaurant = {
 
 const newMenu = [...restaurant.mainMenu, "Fruit", "Dessert"];
 console.log(newMenu);
+
+//Join 2 arrays
+const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+console.log(menu);
+
+
+
+
 // destructuring
 const { name, location, starterMenu, mainMenu } = restaurant;
 console.log(`The restaurant ${name} is located in ${location}
